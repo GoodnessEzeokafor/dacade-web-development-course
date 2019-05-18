@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SchShare</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+                <a class="navbar-brand" href="#">SchShare</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                        <!-- my-2 my-lg-0 -->    
+                        <form class="form-inline mr-3">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search For Academic Materials" aria-label="Search" size=50>
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>              
+                    <li class="nav-item">
+                        <a class="nav-link" href="./home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Upload Item</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Settings
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Change Your Email</a>
+                            <a class="dropdown-item" href="#">Edit Your Profile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="./login.html">Logout</a>
+                        </div>
+                    </li>
+                 </ul>
+                </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <!-- Body -->
+        <section class="introduction">
+            <div class="container intro">
+                <div class="row">
+                    <div class="col-md-6 pt-4">
+                        <h3>
+                            Get Access To All Academic Materials And Blog Post On SchShare      
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="post_list">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <ul class="list-group list-group-horizontal">
+                            <li class="list-group-item">
+                                    Materials Found
+                                    <span class="badge badge-primary badge-pill">2</span>
+                            </li>
+                            <li class="list-group-item">Students</li>
+                            <li class="list-group-item">Courses</li>
+                            <li class="list-group-item">Departments</li>
+                            <li class="list-group-item">Interests</li>
+                            <li class="list-group-item">Computers</li>
+                        </ul>        
+                    </div>
+                    <div class="col-md-8">
+                        <h3>You Searched For Maths Past Question Papers</h3>
+                        <!-- 1st Item  Found -->
+                        <div class="card w-75">
+                            <div class="card-body">
+                                <h5 class="card-title">Maths Past Questions <small>uploaded by Goodness</small></h5>
+                                <p class="card-text">Maths Past Questions For The Year 2018</p>
+                                <a href="#" class="btn btn-lg btn-light" style="color:blue;">Save TO Library</a>
+                                <a href="#" class="btn btn-lg btn-light" style="color:green;">Download</a>                    
+                            </div>
+                        </div>
+                        <!-- 2nd Item Found -->
+                        <div class="card w-75">
+                            <div class="card-body">
+                                <h5 class="card-title">Maths Past Questions <small>uploaded by Jane Doe</small></h5>
+                                <p class="card-text">Maths Past Questions For The Year 2000</p>
+                                <a href="#" class="btn btn-lg btn-light" style="color:blue;">Save TO Library</a>
+                                <a href="#" class="btn btn-lg btn-light" style="color:green;">Download</a>                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p class="text-center">Copyright <script> document.write((new Date().getFullYear()));</script></p>
+        </footer>
+    <!-- End Body -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
