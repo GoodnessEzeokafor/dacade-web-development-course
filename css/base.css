@@ -1,31 +1,40 @@
 /* Overall settings */
 *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 body{
-    background:#feffff;
+  background:#feffff;
 }
 /* Section */
-.introduction{
-    width: 30;
-}
 .intro{
-    margin-top: 60px;
-    border: 1px solid #d4c4c4;
-    height: 250px;
-    /* background-color: black; */
-    padding-top: 30px;
+  margin: 60px 15px 0px 15px;
+  border: 1px solid #d4c4c4;
+  /* background-color: black; */
+  padding: 30px;
+  text-align: center;
 }
 /* End Intro Section */
 
 .post_list{
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
 .btn-light{
-    background-color: #fdffff;
-    border-color: #f8f9fa;
-    font-size: 10px;
+  background-color: #fdffff;
+  border-color: #f8f9fa;
+  font-size: 10px;
+}
+
+.card{
+  margin-bottom: 1em;
+}
+
+#section-headline{
+  margin-bottom: 1em;
+}
+
+#content-selection{
+  margin-bottom: 3em;
 }
